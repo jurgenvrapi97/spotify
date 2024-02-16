@@ -1,0 +1,48 @@
+body {
+  background: rgb(51, 70, 96);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(51, 70, 96, 1) 14%,
+    rgba(0, 0, 0, 1) 55%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(51, 70, 96, 1) 14%,
+    rgba(0, 0, 0, 1) 55%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(51, 70, 96, 1) 14%,
+    rgba(0, 0, 0, 1) 55%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#334660",endColorstr="#000000",GradientType=1);
+}
+
+.sidebar {
+  background-color: black !important;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  height: 100vh;
+  overflow: auto;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.signup-btn:hover {
+  background-color: green !important;
+}
+
+.container-fluid {
+  max-width: 100% !important;
+}
+
+.main-component {
+  height: calc(100vh - 100px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
